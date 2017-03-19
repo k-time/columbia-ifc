@@ -1,0 +1,355 @@
+
+body
+{
+	background-image: url('pics/pano_small.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', "Helvetica neue", Arial, Helvetica, sans-serif;
+
+}
+
+/* Delete this after rush season */
+.calendarContainer
+{
+	position: relative;
+	width: 850px;
+	height: auto;
+	margin: 40px auto 0 auto;
+	padding-top: 0px;
+	text-align: center;
+}
+
+/* Delete this too */
+
+.containerWelcome
+{
+	position: relative;
+	width: 850px;
+	height: auto;
+	margin: 0 auto 0 auto;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+/* And this */
+
+.subheadingWelcome
+{
+	position: relative;
+	font-size: 50px;
+	margin: 0px 0px 30px 0px;
+}
+
+
+
+.topImage
+{
+	margin: 48px 0px 0px 0px;
+}
+
+.container
+{
+	position: relative;
+	width: 850px;
+	height: auto;
+	margin: 40px auto 0 auto;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+.bar
+{
+	display: block;
+	height: 48px;
+	text-align: center;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	z-index: 10000;
+}
+
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 100%;
+}
+
+td
+{
+	height: 46px;
+	line-height: 46px;
+	background-color: #181848;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+td a
+{
+	display: inline-block;
+	height: 100%;
+  	width: 100%;
+}
+
+.hover:hover
+{
+	background-color: #2C558A;
+
+}
+
+.headerLink
+{
+	color: white;
+	text-decoration: none;
+}
+
+.info
+{
+	height: 36px;
+	line-height: 36px;
+	width: auto;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+
+.subtext
+{
+	margin: 0;
+	padding: 0;
+	/* color: #6090d8; */
+}
+
+/*
+.backTop
+{
+	display: block;
+	position: fixed;
+	float: right;
+	right: 25px;
+	bottom: 25px;
+	z-index: 9999;
+}
+*/
+
+.backTop p
+{
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+
+#top
+{
+	position: absolute;
+	top: -48px;
+}
+
+.email
+{
+	font-weight: normal;
+	color: #6090d8;
+}
+
+.email:hover
+{
+	color: #90CBFF;
+}
+
+h1
+{
+	text-align: center;
+}
+
+.headingBar
+{
+	display: block;
+	height: 120px;
+	line-height: 112px;
+	text-align: center;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	background-color: #181848;
+	opacity: .7;
+	margin: 0px;
+    box-shadow:
+        inset 0px 15px 20px -10px black,
+        inset 0px -15px 20px -10px black;
+}
+
+.heading
+{
+	margin: 0;
+	margin-top: 25px;
+	padding: 0;
+	border: 0;
+	font-size: 80px;
+	color: #90d8ff;
+	position: relative;
+	text-align: center;
+}
+
+.heading span
+{
+	position: absolute;
+	top: -48px;
+}
+
+.subheading
+{
+	position: relative;
+	font-size: 50px;
+	margin: 20px 0px 30px 0px;
+}
+
+.subheading span
+{
+	position: absolute;
+	top: -48px;
+}
+
+.text
+{
+	font-weight: 300;
+	font-size: 20px;
+	letter-spacing;
+}
+
+.applyText
+{
+	font-weight: 300;
+	font-size: 30px;
+	letter-spacing;
+}
+
+.link
+{
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.linkColor
+{
+	color: #6090d8;
+}
+
+.linkColor:hover
+{
+	color: #90CBFF;
+}
+
+.navigation
+{
+	text-align: center;
+	color: black;
+	margin-top: 50px;
+	margin-bottom: 35px;
+}
+
+.navLink
+{
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.navLink:hover
+{
+	color: #6090d8;
+}
+
+
+.chapterBlock
+{
+	display: block;
+	width: 970px;
+	text-align: center;
+	font-size: 0px;
+	margin: 0;
+	padding: 0;
+}
+
+.chapter
+{
+	display: inline-block;
+	position: relative;
+	width: 250px;
+	padding: 0px;
+	font-size: 20px;
+	margin: 20px 35px 50px 35px;
+}
+
+.greek
+{
+	font-family: Times;
+	font-size: 50px;
+	font-weight;
+}
+
+.chapter p
+{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.chapterImage
+{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.board
+{
+	display: inline-block;
+	position: relative;
+	width: 250px;
+	padding: 0px;
+	font-size: 20px;
+	margin: 10px 35px;
+}
+
+.board p
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.officer
+{
+	border-radius: 108px;
+	margin-top: 0px;
+	margin-bottom: 12px;
+}
+
+.footer
+{
+	height: 70px;
+	line-height: 70px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 16px;
+	letter-spacing: 1px;
+	opacity: .5;
+}
